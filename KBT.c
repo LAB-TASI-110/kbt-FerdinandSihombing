@@ -20,9 +20,8 @@ int main() {
     double harga_per_tiket_final;
     double total_harga;
 
-    // Judul program yang sudah diperbaiki
-    printf("Program Pemesanan Tiket KBT\n");
-    printf("----------------------------------\n");
+    printf("Program Pemesanan Tiket Koperasi Bintang Tapanuli\n");
+    printf("--------------------------------------------------\n");
 
     printf("Masukkan jenis tiket (Eksekutif, Bisnis, Ekonomi): ");
     fgets(jenis_tiket, sizeof(jenis_tiket), stdin);
